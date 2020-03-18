@@ -1,15 +1,14 @@
 import React from "react";
+import "./global.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="center">
-        <React.Fragment>
-          <h1>Coming Soon!</h1>
-          <p>Check back later</p>
-        </React.Fragment>
+    <React.Fragment>
+      <div className="container">
+        <h1 className="center">Coming Soon!</h1>
+        <p className="center">Check back later</p>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
