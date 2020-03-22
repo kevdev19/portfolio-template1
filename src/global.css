@@ -1,3 +1,71 @@
 .center {
   text-align: center;
 }
+
+/* Make Header Sticky */
+.header-container {
+  background-color: royalblue;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* .header {
+  z-index: 1001;
+} */
+
+.nav-list {
+  display: flex;
+  padding: 0 10px;
+  max-width: 20%;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgb(255, 223, 82);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.column-container {
+  display: flex;
+  padding: 40px 20px;
+  align-items: center;
+}
+
+.column-one {
+  width: 50%;
+  padding: 20px 10px;
+}
+
+.column-two {
+  width: 50%;
+  padding: 20px 10px;
+}
+
+.footer-container {
+  height: 200px;
+  width: 100%;
+  background-color: royalblue;
+  padding: 10px;
+}
+
+.footer-nav {
+  margin: 10px 0 0 0;
+}
+
+.copyright {
+  padding: 0 0 0 17px;
+  color: rgb(173, 171, 171);
+}

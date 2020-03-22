@@ -1,14 +1,15 @@
 import React from "react";
+import Home from "./components/Home";
+// import Header from "./components/Header";
+// import MainContent from "./components/MainContent";
+// import Footer from "./components/Footer";
 import "./global.css";
 
 function App() {
   return (
-    <React.Fragment>
-      <div className="container">
-        <h1 className="center">Coming Soon!</h1>
-        <p className="center">Check back later</p>
-      </div>
-    </React.Fragment>
+    <div className="App">
+      <Home />
+    </div>
   );
 }
 
